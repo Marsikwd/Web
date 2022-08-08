@@ -86,15 +86,17 @@
 	}
 
 	.header-menu {
+		max-width: 1400px;
 		display: flex;
 		align-items: baseline;
+		margin: 0 auto;
 	}
 
 	.header__logo {
 		font-size: 25px;
 		line-height: 22px;
 		font-weight: 700;
-		margin-right: 100px;
+		margin-left: 100px;
 	}
 
 	.header__logo a {
@@ -117,7 +119,7 @@
 		margin-left: 168px;
 	}
 
-	.menu__link {
+	.menuItem {
 		font-family: 'Open Sans';
 		margin: 0px 45px 0px 0px;
 		text-decoration: none;
@@ -128,18 +130,18 @@
 		color: #212121;
 	}
 
-	.menu__link:hover {
+	.menuItem:hover {
 		color: red;
 		text-decoration: underline;
 	}
 
-	#burg_menu {
+	.menuIcon,
+	.closeIcon {
 		display: none;
-		font-size: 28px !important;
 	}
 
-	#burg_menu:hover {
-		color: #212121;
+	.hamburger {
+		display: none;
 	}
 
 	/*----main-------------------------------------------------*/
@@ -724,7 +726,6 @@
 		background-color: white;
 		padding: 10px;
 	}
-
 
 	.fa {
 		padding: 12px;
