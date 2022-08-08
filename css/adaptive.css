@@ -121,14 +121,16 @@
     font-size: 2.5vw;
     padding-bottom: 30px;
   }
+
   .menu__item {
     display: none;
   }
+
   #burg_menu {
-		display: flex;
+    display: flex;
     background: none;
     margin: 0 auto;
-	}
+  }
 
 }
 
@@ -181,9 +183,11 @@
   .contact__row {
     flex-direction: column;
   }
+
   .item-contact__title {
     font-size: 3vw;
   }
+
   .portfolio__button {
     width: 50%;
     margin: 0 auto;
@@ -192,6 +196,12 @@
   .portfolio__row {
     margin-top: 8px;
   }
+
+  .portfolio__btn {
+    width: 80%;
+    font-size: 4vw;
+  }
+
 
   #myBtnContainer {
     flex-direction: column;
