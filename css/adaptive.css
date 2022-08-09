@@ -25,14 +25,25 @@
   }
 
   input {
-    width: 90%;
+    width: 80%;
     margin: 0;
     margin-bottom: 10px;
   }
 
+  .col-75 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+  }
+
   .col-75>textarea {
-    width: 310px;
+    width: 380px;
     height: 120px;
+  }
+
+  textarea::placeholder {
+    font-size: 1.4em;
+    padding: 3px 0 0 5px;
   }
 
   .submit {
@@ -282,17 +293,10 @@
   }
 
   #up {
-    height: 15px;
-    width: 15px;
-    bottom: 30px;
-		right: 10px;
+    bottom: 60px;
+    right: 20px;
   }
 
-  #up::before {
-    content: url('../icons/upmini.png');
-    padding-top: 3px;
-    color: aliceblue;
-  }
 }
 
 @media screen and (max-width: 450px) {
