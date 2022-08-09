@@ -308,6 +308,10 @@
     height: 60px;
   }
 
+  .col-75>textarea {
+    width: 224px;
+    height: 120px;
+  }
   .header__logo {
     margin-left: 5px;
     width: 120px;
