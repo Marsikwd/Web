@@ -281,6 +281,18 @@
     margin: 0;
   }
 
+  #up {
+    height: 15px;
+    width: 15px;
+    bottom: 30px;
+		right: 10px;
+  }
+
+  #up::before {
+    content: url('../icons/upmini.png');
+    padding-top: 3px;
+    color: aliceblue;
+  }
 }
 
 @media screen and (max-width: 450px) {
